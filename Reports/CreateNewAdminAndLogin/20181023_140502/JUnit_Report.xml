@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateNewAdminAndLogin" time="136" tests="2" failures="0" errors="0">
+   <testsuite name="CreateNewAdminAndLogin" tests="2" failures="0" errors="0" time="136" timestamp="2018-10-23 14:05:05" hostname="Saranya - Saranya-PC" id="Test Suites/CreateNewAdminAndLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181023_140502"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181023_140502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="02acb48ebf536d1cfb85848e103ebf5f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-23 14:05:06 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-23 14:05:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 14:05:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 14:05:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-23 14:05:18 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-23 14:05:18 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-23 14:05:23 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-23 14:05:23 - [TEST_STEP][PASSED] - setText: Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-23 14:05:27 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-23 14:05:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-23 14:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-23 14:05:29 - [TEST_CASE][PASSED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin
+
+2018-10-23 14:05:30 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage: phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-23 14:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-23 14:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Admins' is clicked on
+
+2018-10-23 14:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Admins Management/button_Add' is clicked on
+
+2018-10-23 14:05:43 - [MESSAGE][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-23 14:05:43 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAdminDetails: phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-23 14:05:48 - [MESSAGE][PASSED] - Text 'Saranya' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_fname'
+
+2018-10-23 14:05:53 - [MESSAGE][PASSED] - Text 'Rohit' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_lname'
+
+2018-10-23 14:05:57 - [MESSAGE][PASSED] - Text 'sj@demo.com' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_email'
+
+2018-10-23 14:06:01 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_password'
+
+2018-10-23 14:06:06 - [MESSAGE][PASSED] - Text '8301256958' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_mobile'
+
+2018-10-23 14:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country1' is clicked on
+
+2018-10-23 14:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2' is clicked on
+
+2018-10-23 14:06:14 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2'
+
+2018-10-23 14:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country3' is clicked on
+
+2018-10-23 14:06:21 - [MESSAGE][PASSED] - Text 'Rakendu,ABRA365' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address1'
+
+2018-10-23 14:06:25 - [MESSAGE][PASSED] - Text 'church road' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address2'
+
+2018-10-23 14:06:33 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/create_new_admin/Page_Add Admin/select_status'
+
+2018-10-23 14:06:33 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-23 14:06:33 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd: phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-23 14:06:36 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:49 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:49 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-23 14:06:49 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit: phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-23 14:06:52 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:55 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:06:58 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:05 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-23 14:07:05 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForRemove: phpTravels.PhpKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-23 14:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:21 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-23 14:07:21 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-23 14:07:21 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.saveAdmin: phpTravels.PhpKeys.saveAdmin is PASSED
+
+2018-10-23 14:07:21 - [MESSAGE][PASSED] - phpTravels.PhpKeys.saveAdmin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 14:05:05 - [TEST_SUITE][PASSED] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

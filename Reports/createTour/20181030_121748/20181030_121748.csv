@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+createTour,Chrome 69.0.3497.100,,2018-10-30 12:17:52,2018-10-30 12:19:25,1m - 32.992s,FAILED
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,Chrome 69.0.3497.100,,2018-10-30 12:17:53,2018-10-30 12:18:19,26.514s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Chrome 69.0.3497.100,,2018-10-30 12:17:53,2018-10-30 12:17:54,0.896s,PASSED
+"Statement - userName = dbdata.getValue(5, 2)",Chrome 69.0.3497.100,,2018-10-30 12:17:54,2018-10-30 12:17:54,0.021s,PASSED
+"Statement - password = dbdata.getValue(2, 2)",Chrome 69.0.3497.100,,2018-10-30 12:17:54,2018-10-30 12:17:54,0.005s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Chrome 69.0.3497.100,,2018-10-30 12:17:54,2018-10-30 12:18:19,24.925s,PASSED
+,,,,,,
+Test Cases/CreateTour/CreateATour,Chrome 69.0.3497.100,,2018-10-30 12:18:19,2018-10-30 12:19:23,1m - 4.007s,FAILED
+phpTravels.TourKeys.navigateToNewTour,Chrome 69.0.3497.100,,2018-10-30 12:18:20,2018-10-30 12:18:33,13.665s,PASSED
+phpTravels.TourKeys.provideTourDetails,Chrome 69.0.3497.100,,2018-10-30 12:18:33,2018-10-30 12:19:23,49.819s,FAILED

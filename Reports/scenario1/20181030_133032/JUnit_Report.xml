@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="scenario1" time="47" tests="0" failures="4" errors="2">
+   <testsuite name="scenario1" tests="0" failures="4" errors="2" time="47" timestamp="2018-10-30 13:30:36" hostname="Saranya - Saranya-PC" id="Test Suites/scenario1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\scenario1\\20181030_133032"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\scenario1\\20181030_133032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.'"/>
+         <system-out><![CDATA[2018-10-30 13:30:37 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.'
+
+2018-10-30 13:30:37 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users']]></system-out>
+         <system-err><![CDATA[2018-10-30 13:30:37 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-10-30 13:30:59 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:00 - [TEST_STEP][FAILED] - phpTravels.PhpKeys.navigateToCreateAdminPage: Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-30 13:31:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-30 13:30:59 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsNewAdmin" classname="Test Cases/Common/LoginAsNewAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/Common/LoginAsNewAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.'"/>
+         <system-out><![CDATA[2018-10-30 13:31:01 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsNewAdmin: Test Cases/Common/LoginAsNewAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.'
+
+2018-10-30 13:31:01 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users']]></system-out>
+         <system-err><![CDATA[2018-10-30 13:31:01 - [TEST_CASE][ERROR] - Test Cases/Common/LoginAsNewAdmin: Test Cases/Common/LoginAsNewAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.']]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateTour/CreateATour" classname="Test Cases/CreateTour/CreateATour" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/create_Tour/Page_Tours Management/a_Tours' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-10-30 13:31:22 - [TEST_CASE][FAILED] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour FAILED because (of) Unable to click on object 'Object Repository/create_Tour/Page_Tours Management/a_Tours' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:22 - [TEST_STEP][FAILED] - phpTravels.TourKeys.navigateToNewTour: Unable to click on object 'Object Repository/create_Tour/Page_Tours Management/a_Tours' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-30 13:31:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_Tour/Page_Tours Management/a_Tours' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_Tour/Page_Tours Management/a_Tours' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-30 13:31:22 - [TEST_CASE][FAILED] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour FAILED because (of) Unable to click on object 'Object Repository/create_Tour/Page_Tours Management/a_Tours' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewSupplier" classname="Test Cases/CreateUser/CreateNewSupplier" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-10-30 13:31:22 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewSupplier: Test Cases/CreateUser/CreateNewSupplier FAILED because (of) Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:23 - [TEST_STEP][FAILED] - phpTravels.SupplierKeys.navigateToCreateSupplierPage: Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-30 13:31:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-30 13:31:22 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewSupplier: Test Cases/CreateUser/CreateNewSupplier FAILED because (of) Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/DeleteAllTestData" classname="Test Cases/Common/DeleteAllTestData" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-10-30 13:31:23 - [TEST_CASE][FAILED] - Test Cases/Common/DeleteAllTestData: Test Cases/Common/DeleteAllTestData FAILED because (of) Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:23 - [TEST_STEP][FAILED] - phpTravels.commonUtils.deleteSupplierData: Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-30 13:31:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-10-30 13:31:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-30 13:31:23 - [TEST_CASE][FAILED] - Test Cases/Common/DeleteAllTestData: Test Cases/Common/DeleteAllTestData FAILED because (of) Unable to click on object 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-30 13:30:36 - [TEST_SUITE][ERROR] - scenario1: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.']]></system-out>
+      <system-err><![CDATA[2018-10-30 13:30:36 - [TEST_SUITE][ERROR] - scenario1: Test Cases/Common/LoginAsSuperAdmin FAILED because (of) java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/adminDetails' because (of) 'com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.']]></system-err>
+   </testsuite>
+</testsuites>

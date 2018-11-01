@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuperAdmintoCreateNewAdmin" time="138" tests="1" failures="1" errors="0">
+   <testsuite name="LoginSuperAdmintoCreateNewAdmin" tests="1" failures="1" errors="0" time="138" timestamp="2018-10-26 16:48:42" hostname="Saranya - Saranya-PC" id="Test Suites/LoginSuperAdmintoCreateNewAdmin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\LoginSuperAdmintoCreateNewAdmin\\20181026_164839"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\LoginSuperAdmintoCreateNewAdmin\\20181026_164839\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\LoginSuperAdmintoCreateNewAdmin\\20181026_164839\\1540552858274.png"/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="aa7d8d4ed24e28e73eddb61997db8ea6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-26 16:48:43 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-26 16:48:44 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-26 16:48:45 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-26 16:48:45 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-26 16:48:45 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-26 16:48:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-26 16:48:55 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-26 16:48:59 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-26 16:49:03 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-26 16:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-26 16:49:05 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;icheckbox_square-grey&quot; style=&quot;position: relative;&quot;>...&lt;/div> is not clickable at point (791, 537). Other element would receive the click: &lt;iframe id=&quot;oNBDH28-1540552764475&quot; src=&quot;about:blank&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;chat widget&quot; class=&quot;&quot; style=&quot;outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;&quot;>&lt;/iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)"/>
+         <system-out><![CDATA[2018-10-26 16:49:05 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)
+
+2018-10-26 16:49:06 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage: phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-26 16:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-26 16:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Admins' is clicked on
+
+2018-10-26 16:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Admins Management/button_Add' is clicked on
+
+2018-10-26 16:49:24 - [MESSAGE][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-26 16:49:24 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAdminDetails: phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-26 16:49:29 - [MESSAGE][PASSED] - Text 'Saranya' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_fname'
+
+2018-10-26 16:49:33 - [MESSAGE][PASSED] - Text 'Rohit' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_lname'
+
+2018-10-26 16:49:37 - [MESSAGE][PASSED] - Text 'sj@demo.com' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_email'
+
+2018-10-26 16:49:42 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_password'
+
+2018-10-26 16:49:46 - [MESSAGE][PASSED] - Text '8301256958' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_mobile'
+
+2018-10-26 16:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country1' is clicked on
+
+2018-10-26 16:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2' is clicked on
+
+2018-10-26 16:49:55 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2'
+
+2018-10-26 16:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country3' is clicked on
+
+2018-10-26 16:50:01 - [MESSAGE][PASSED] - Text 'Rakendu,ABRA365' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address1'
+
+2018-10-26 16:50:06 - [MESSAGE][PASSED] - Text 'church road' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address2'
+
+2018-10-26 16:50:13 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/create_new_admin/Page_Add Admin/select_status'
+
+2018-10-26 16:50:13 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-26 16:50:13 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd: phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-26 16:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:19 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:23 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:29 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:29 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-26 16:50:29 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit: phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-26 16:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:39 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:42 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:45 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-26 16:50:45 - [TEST_STEP][FAILED] - phpTravels.PhpKeys.provideAccessDetailsForRemove: Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)
+
+2018-10-26 16:50:48 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:55 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-26 16:50:59 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)
+[[ATTACHMENT|C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\LoginSuperAdmintoCreateNewAdmin\\20181026_164839\\1540552858274.png]]
+
+2018-10-26 16:50:59 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)]]></system-out>
+         <system-err><![CDATA[2018-10-26 16:49:05 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-26 16:48:42 - [TEST_SUITE][FAILED] - LoginSuperAdmintoCreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)]]></system-out>
+      <system-err><![CDATA[2018-10-26 16:48:42 - [TEST_SUITE][FAILED] - LoginSuperAdmintoCreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to check object 'Object Repository/user/create_new_admin/Access/remove/Page_Add Admin/checkbox_all' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="icheckbox_square-grey" style="position: relative;">...</div> is not clickable at point (791, 537). Other element would receive the click: <iframe id="oNBDH28-1540552764475" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: aa7d8d4ed24e28e73eddb61997db8ea6)]]></system-err>
+   </testsuite>
+</testsuites>

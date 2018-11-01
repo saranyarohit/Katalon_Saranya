@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateNewAdminAndLogin,Chrome 69.0.3497.100,,2018-10-23 12:43:53,2018-10-23 12:45:45,1m - 51.821s,PASSED
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,Chrome 69.0.3497.100,,2018-10-23 12:43:54,2018-10-23 12:44:15,21.479s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-23 12:43:55,2018-10-23 12:44:01,6.478s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-23 12:44:01,2018-10-23 12:44:04,3.433s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-23 12:44:04,2018-10-23 12:44:09,4.396s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-23 12:44:09,2018-10-23 12:44:13,4.254s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-23 12:44:13,2018-10-23 12:44:15,2.210s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewAdmin,Chrome 69.0.3497.100,,2018-10-23 12:44:15,2018-10-23 12:45:43,1m - 27.809s,PASSED
+phpTravels.PhpKeys.navigateToCreateAdminPage,Chrome 69.0.3497.100,,2018-10-23 12:44:16,2018-10-23 12:44:29,12.939s,PASSED
+phpTravels.PhpKeys.provideAdminDetails,Chrome 69.0.3497.100,,2018-10-23 12:44:29,2018-10-23 12:45:11,42.536s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForAdd,Chrome 69.0.3497.100,,2018-10-23 12:45:11,2018-10-23 12:45:11,0.066s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForEdit,Chrome 69.0.3497.100,,2018-10-23 12:45:11,2018-10-23 12:45:27,15.989s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForRemove,Chrome 69.0.3497.100,,2018-10-23 12:45:27,2018-10-23 12:45:43,15.910s,PASSED
+phpTravels.PhpKeys.saveAdmin,Chrome 69.0.3497.100,,2018-10-23 12:45:43,2018-10-23 12:45:43,0.001s,PASSED

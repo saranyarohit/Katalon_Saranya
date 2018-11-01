@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>tourExclusions</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>45ff0a07-b70f-480d-8c07-db2c525342ea</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Extra+stay+pre%2Fpost+tour 0</data>
+   <data>Extra+water+bottle+charges 0</data>
+   <data>Medicines+required+if+any 0</data>
+   <data>Airfare+%26+airport+taxes 1</data>
+   <data>Visa+charges 1</data>
+   <data>Insurance 1</data>
+   <data>Passport+costs 1</data>
+   <data>All+meals+and+drinks 1</data>
+   <data>Tips+to+coach+drivers 1</data>
+   <data>Tips+and+Gratuities 0</data>
+   <data>Return+Airport+Transfer 0</data>
+   <data>Any+optional+tours 0</data>
+   <data>Any+airport+arrival%2Fdeparture+tax 0</data>
+   <data>Alcoholic+beverages 0</data>
+   <data>null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>ExcludingAreas</name>
+      <size>15</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>selectTrigger</name>
+      <size>15</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateNewAdminAndLogin" time="58" tests="1" failures="0" errors="1">
+   <testsuite name="CreateNewAdminAndLogin" tests="1" failures="0" errors="1" time="58" timestamp="2018-10-18 14:40:00" hostname="Saranya - Saranya-PC" id="Test Suites/CreateNewAdminAndLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_143955"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_143955\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="98bfc59e-4228-41fb-aec7-fc1dfb1b9006"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-18 14:40:01 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-18 14:40:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-18 14:40:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-18 14:40:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-18 14:40:23 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-18 14:40:23 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-18 14:40:25 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-18 14:40:25 - [TEST_STEP][PASSED] - setText: Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-18 14:40:26 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-18 14:40:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-18 14:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/CreateUser/CreateNewAdmin FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()"/>
+         <system-out><![CDATA[2018-10-18 14:40:26 - [TEST_CASE][ERROR] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2018-10-18 14:40:26 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage: phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-18 14:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-18 14:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Admins' is clicked on
+
+2018-10-18 14:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Admins Management/button_Add' is clicked on
+
+2018-10-18 14:40:52 - [MESSAGE][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-18 14:40:52 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAdminDetails: phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-18 14:40:53 - [MESSAGE][PASSED] - Text 'fName' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_fname'
+
+2018-10-18 14:40:53 - [MESSAGE][PASSED] - Text 'lName' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_lname'
+
+2018-10-18 14:40:54 - [MESSAGE][PASSED] - Text 'mail@demo.com' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_email'
+
+2018-10-18 14:40:54 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_password'
+
+2018-10-18 14:40:54 - [MESSAGE][PASSED] - Text '9495441434' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_mobile'
+
+2018-10-18 14:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country1' is clicked on
+
+2018-10-18 14:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2' is clicked on
+
+2018-10-18 14:40:56 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2'
+
+2018-10-18 14:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country3' is clicked on
+
+2018-10-18 14:40:57 - [MESSAGE][PASSED] - Text 'Address1' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address1'
+
+2018-10-18 14:40:57 - [MESSAGE][PASSED] - Text 'Address2' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address2'
+
+2018-10-18 14:40:57 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-18 14:40:57 - [TEST_STEP][ERROR] - phpTravels.PhpKeys.provideAccessDetailsForAdd: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+
+2018-10-18 14:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all' is present
+
+2018-10-18 14:40:57 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-out>
+         <system-err><![CDATA[2018-10-18 14:40:26 - [TEST_CASE][ERROR] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-18 14:40:00 - [TEST_SUITE][ERROR] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-out>
+      <system-err><![CDATA[2018-10-18 14:40:00 - [TEST_SUITE][ERROR] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.util.LinkedHashMap) values: [TestObject - 'Object Repository/user/create_new_admin/Access/add/Page_Add Admin/checkbox_all', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()]]></system-err>
+   </testsuite>
+</testsuites>

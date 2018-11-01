@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateNewAdminAndLogin" time="55" tests="1" failures="1" errors="0">
+   <testsuite name="CreateNewAdminAndLogin" tests="1" failures="1" errors="0" time="55" timestamp="2018-10-18 15:42:56" hostname="Saranya - Saranya-PC" id="Test Suites/CreateNewAdminAndLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_154253"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_154253\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_154253\\1539857630627.png"/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="46f83ae0-34ff-40df-83d6-13438079bccf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-18 15:42:56 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-18 15:42:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-18 15:43:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-18 15:43:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-18 15:43:17 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-18 15:43:17 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-18 15:43:18 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-18 15:43:18 - [TEST_STEP][PASSED] - setText: Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-18 15:43:19 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-18 15:43:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-18 15:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)"/>
+         <system-out><![CDATA[2018-10-18 15:43:19 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)
+
+2018-10-18 15:43:19 - [TEST_STEP][FAILED] - phpTravels.PhpKeys.navigateToCreateAdminPage: Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)
+
+2018-10-18 15:43:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)
+[[ATTACHMENT|C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_154253\\1539857630627.png]]
+
+2018-10-18 15:43:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)]]></system-out>
+         <system-err><![CDATA[2018-10-18 15:43:19 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-18 15:42:56 - [TEST_SUITE][FAILED] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-10-18 15:42:56 - [TEST_SUITE][FAILED] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) Unable to click on object 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' located by 'By.xpath: //a[@href = '#ACCOUNTS' and (text() = ' Accounts
+                        ' or . = ' Accounts
+                        ')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

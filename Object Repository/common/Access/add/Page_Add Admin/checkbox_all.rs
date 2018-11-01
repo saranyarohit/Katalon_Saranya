@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_all</name>
+   <tag></tag>
+   <elementGuidId>145b54a3-b76c-4658-b592-0992e80a5e94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[contains(@class,'panel-heading')]//self::*[(text()='Add')]//following-sibling::*//li[${value}]//div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[contains(@class,'panel-heading')]//self::*[(text()='Add')]//following-sibling::*//li[${value}]//div</value>
+   </webElementProperties>
+</WebElementEntity>

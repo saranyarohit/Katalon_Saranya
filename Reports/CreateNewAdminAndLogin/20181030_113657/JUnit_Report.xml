@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateNewAdminAndLogin" time="314" tests="3" failures="2" errors="0">
+   <testsuite name="CreateNewAdminAndLogin" tests="3" failures="2" errors="0" time="314" timestamp="2018-10-30 11:37:01" hostname="Saranya - Saranya-PC" id="Test Suites/CreateNewAdminAndLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181030_113657"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181030_113657\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181030_113657\\1540879907046.png, C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181030_113657\\1540879933507.png"/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="e5b4ed9de1491ad23b29177989147a5a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:37:02 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-30 11:37:03 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-30 11:37:04 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-30 11:37:04 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-30 11:37:04 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-30 11:37:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 11:37:15 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-30 11:37:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 11:37:22 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-30 11:37:26 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-30 11:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-30 11:37:28 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:37:28 - [TEST_CASE][PASSED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin
+
+2018-10-30 11:37:29 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage: phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-30 11:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-30 11:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Admins' is clicked on
+
+2018-10-30 11:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Admins Management/button_Add' is clicked on
+
+2018-10-30 11:37:53 - [MESSAGE][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-30 11:37:53 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAdminDetails: phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-30 11:37:58 - [MESSAGE][PASSED] - Text 'Saranya' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_fname'
+
+2018-10-30 11:38:02 - [MESSAGE][PASSED] - Text 'Rohit' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_lname'
+
+2018-10-30 11:38:06 - [MESSAGE][PASSED] - Text 'sj@demo.com' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_email'
+
+2018-10-30 11:38:11 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_password'
+
+2018-10-30 11:38:15 - [MESSAGE][PASSED] - Text '8301256958' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_mobile'
+
+2018-10-30 11:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country1' is clicked on
+
+2018-10-30 11:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2' is clicked on
+
+2018-10-30 11:38:24 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2'
+
+2018-10-30 11:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country3' is clicked on
+
+2018-10-30 11:38:30 - [MESSAGE][PASSED] - Text 'Rakendu,ABRA365' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address1'
+
+2018-10-30 11:38:35 - [MESSAGE][PASSED] - Text 'church road' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address2'
+
+2018-10-30 11:38:42 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/create_new_admin/Page_Add Admin/select_status'
+
+2018-10-30 11:38:42 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-30 11:38:42 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd: phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-30 11:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:23 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-30 11:39:23 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit: phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-30 11:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:39:53 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-30 11:39:53 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForRemove: phpTravels.PhpKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-30 11:39:54 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2018-10-30 11:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-30 11:40:10 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-30 11:40:10 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.saveAdmin: phpTravels.PhpKeys.saveAdmin is PASSED
+
+2018-10-30 11:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Update Admin/button_Submit' is clicked on
+
+2018-10-30 11:40:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-30 11:40:18 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Page_Update Admin/table_Admin' is present
+
+2018-10-30 11:40:18 - [MESSAGE][PASSED] - phpTravels.PhpKeys.saveAdmin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsNewAdmin" classname="Test Cases/Common/LoginAsNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-30 11:40:18 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsNewAdmin: Test Cases/Common/LoginAsNewAdmin
+
+2018-10-30 11:40:18 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-30 11:40:18 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 1): null
+
+2018-10-30 11:40:18 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 1): null
+
+2018-10-30 11:40:18 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-30 11:40:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-30 11:40:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 11:40:29 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-30 11:40:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 11:40:35 - [MESSAGE][PASSED] - Text 'sj@demo.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-30 11:40:39 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-30 11:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-30 11:40:41 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateTour/CreateATour" classname="Test Cases/CreateTour/CreateATour" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;span id=&quot;infantbtn&quot;>...&lt;/span> is not clickable at point (1202, 604). Other element would receive the click: &lt;iframe id=&quot;dskh8BL-1540879857723&quot; src=&quot;about:blank&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; title=&quot;chat widget&quot; class=&quot;&quot; style=&quot;outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;&quot;>&lt;/iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)"/>
+         <system-out><![CDATA[2018-10-30 11:40:42 - [TEST_CASE][FAILED] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour FAILED because (of) Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)
+
+2018-10-30 11:40:42 - [TEST_STEP][PASSED] - phpTravels.TourKeys.navigateToNewTour: phpTravels.TourKeys.navigateToNewTour is PASSED
+
+2018-10-30 11:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Tours' is clicked on
+
+2018-10-30 11:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Add New' is clicked on
+
+2018-10-30 11:40:58 - [MESSAGE][PASSED] - phpTravels.TourKeys.navigateToNewTour is PASSED
+
+2018-10-30 11:40:58 - [TEST_STEP][FAILED] - phpTravels.TourKeys.provideTourDetails: Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)
+
+2018-10-30 11:41:10 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_TourStatus'  using regular expression
+
+2018-10-30 11:41:14 - [MESSAGE][PASSED] - Text 'Trip to Ootty' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tourname'
+
+2018-10-30 11:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/iframeBody' is clicked on
+
+2018-10-30 11:41:23 - [MESSAGE][PASSED] - Text 'Enjoy Holidays with Family' is set on object 'Object Repository/create_Tour/Page_Add Tour/iframeBody'
+
+2018-10-30 11:41:29 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxadult'
+
+2018-10-30 11:41:34 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_adultprice'
+
+2018-10-30 11:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/span_Enable' is clicked on
+
+2018-10-30 11:41:40 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxchild'
+
+2018-10-30 11:41:44 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_childprice'
+
+2018-10-30 11:41:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)
+[[ATTACHMENT|C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181030_113657\\1540879907046.png]]
+
+2018-10-30 11:41:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)]]></system-out>
+         <system-err><![CDATA[2018-10-30 11:40:42 - [TEST_CASE][FAILED] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour FAILED because (of) Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewSupplier" classname="Test Cases/CreateUser/CreateNewSupplier" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Sukanya' of object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)"/>
+         <system-out><![CDATA[2018-10-30 11:41:48 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewSupplier: Test Cases/CreateUser/CreateNewSupplier FAILED because (of) Unable to set text 'Sukanya' of object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)
+
+2018-10-30 11:41:48 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.navigateToCreateSupplierPage: phpTravels.SupplierKeys.navigateToCreateSupplierPage is PASSED
+
+2018-10-30 11:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-30 11:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Suppliers' is clicked on
+
+2018-10-30 11:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Suppliers Management/button_Add' is clicked on
+
+2018-10-30 11:42:02 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.navigateToCreateSupplierPage is PASSED
+
+2018-10-30 11:42:02 - [TEST_STEP][FAILED] - phpTravels.SupplierKeys.provideSupplierDetails: Unable to set text 'Sukanya' of object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)
+
+2018-10-30 11:42:14 - [MESSAGE][FAILED] - Unable to set text 'Sukanya' of object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)
+[[ATTACHMENT|C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181030_113657\\1540879933507.png]]
+
+2018-10-30 11:42:14 - [MESSAGE][FAILED] - Unable to set text 'Sukanya' of object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)]]></system-out>
+         <system-err><![CDATA[2018-10-30 11:41:48 - [TEST_CASE][FAILED] - Test Cases/CreateUser/CreateNewSupplier: Test Cases/CreateUser/CreateNewSupplier FAILED because (of) Unable to set text 'Sukanya' of object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname' (Root cause: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-30 11:37:01 - [TEST_SUITE][FAILED] - CreateNewAdminAndLogin: Test Cases/CreateTour/CreateATour FAILED because (of) Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)]]></system-out>
+      <system-err><![CDATA[2018-10-30 11:37:01 - [TEST_SUITE][FAILED] - CreateNewAdminAndLogin: Test Cases/CreateTour/CreateATour FAILED because (of) Unable to click on object 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span id="infantbtn">...</span> is not clickable at point (1202, 604). Other element would receive the click: <iframe id="dskh8BL-1540879857723" src="about:blank" frameborder="0" scrolling="no" title="chat widget" class="" style="outline: none !important; visibility: visible !important; resize: none !important; box-shadow: none !important; overflow: visible !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: auto !important; float: none !important; height: 40px !important; min-height: 40px !important; max-height: 40px !important; width: 320px !important; min-width: 320px !important; max-width: 320px !important; border-radius: 0px !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center 0px !important; margin: 0px !important; top: auto !important; bottom: 0px !important; right: 10px !important; left: auto !important; display: block !important;"></iframe>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SARANYA-PC', ip: '192.168.1.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Saranya\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: e5b4ed9de1491ad23b29177989147a5a)]]></system-err>
+   </testsuite>
+</testsuites>

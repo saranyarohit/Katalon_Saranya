@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateNewAdminAndLogin" time="18" tests="1" failures="0" errors="1">
+   <testsuite name="CreateNewAdminAndLogin" tests="1" failures="0" errors="1" time="18" timestamp="2018-10-18 13:45:02" hostname="Saranya - Saranya-PC" id="Test Suites/CreateNewAdminAndLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_134459"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\CreateNewAdminAndLogin\\20181018_134459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="eaabfe11-3fc8-4755-a521-3f72ea03b5e5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-18 13:45:02 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-18 13:45:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-18 13:45:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-18 13:45:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-18 13:45:18 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-18 13:45:18 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-18 13:45:19 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-18 13:45:19 - [TEST_STEP][PASSED] - setText: Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-18 13:45:19 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-18 13:45:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-18 13:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="ERROR">
+         <error type="ERROR" message="Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.
+"/>
+         <system-out><![CDATA[2018-10-18 13:45:20 - [TEST_CASE][ERROR] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.
+
+
+2018-10-18 13:45:20 - [TEST_STEP][ERROR] - phpTravels.PhpKeys.navigateToCreateAdminPage: Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.
+
+
+2018-10-18 13:45:20 - [MESSAGE][ERROR] - Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.]]></system-out>
+         <system-err><![CDATA[2018-10-18 13:45:20 - [TEST_CASE][ERROR] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-18 13:45:02 - [TEST_SUITE][ERROR] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.]]></system-out>
+      <system-err><![CDATA[2018-10-18 13:45:02 - [TEST_SUITE][ERROR] - CreateNewAdminAndLogin: Test Cases/CreateUser/CreateNewAdmin FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+	Groovy:expecting EOF, found 'static' @ line 2, column 3.]]></system-err>
+   </testsuite>
+</testsuites>

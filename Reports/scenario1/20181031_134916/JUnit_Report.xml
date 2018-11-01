@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="scenario1" time="651" tests="5" failures="1" errors="0">
+   <testsuite name="scenario1" tests="5" failures="1" errors="0" time="651" timestamp="2018-10-31 13:49:19" hostname="Saranya - Saranya-PC" id="Test Suites/scenario1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\git\\Katalon_Saranya_Assignment\\Reports\\scenario1\\20181031_134916"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\git\\Katalon_Saranya_Assignment\\Reports\\scenario1\\20181031_134916\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Saranya\\git\\Katalon_Saranya_Assignment\\Reports\\scenario1\\20181031_134916\\1540974607737.png"/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="48aa8c0d3db2588b03b4b0f246e7d18f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-31 13:49:20 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-31 13:49:21 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-31 13:49:21 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-31 13:49:22 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-31 13:49:22 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-31 13:49:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-31 13:49:30 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-31 13:49:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-31 13:49:37 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-31 13:49:41 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-31 13:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-31 13:49:43 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewAdmin" classname="Test Cases/CreateUser/CreateNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-31 13:49:43 - [TEST_CASE][PASSED] - Test Cases/CreateUser/CreateNewAdmin: Test Cases/CreateUser/CreateNewAdmin
+
+2018-10-31 13:49:44 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage: phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-31 13:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-31 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Dashboard/a_Admins' is clicked on
+
+2018-10-31 13:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Admins Management/button_Add' is clicked on
+
+2018-10-31 13:50:01 - [MESSAGE][PASSED] - phpTravels.PhpKeys.navigateToCreateAdminPage is PASSED
+
+2018-10-31 13:50:01 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAdminDetails: phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-31 13:50:06 - [MESSAGE][PASSED] - Text 'Saranya' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_fname'
+
+2018-10-31 13:50:10 - [MESSAGE][PASSED] - Text 'Rohit' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_lname'
+
+2018-10-31 13:50:14 - [MESSAGE][PASSED] - Text 'sj@demo.com' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_email'
+
+2018-10-31 13:50:19 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_password'
+
+2018-10-31 13:50:23 - [MESSAGE][PASSED] - Text '8301256958' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_mobile'
+
+2018-10-31 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country1' is clicked on
+
+2018-10-31 13:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2' is clicked on
+
+2018-10-31 13:50:32 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country2'
+
+2018-10-31 13:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Add Admin/autocomplete_country3' is clicked on
+
+2018-10-31 13:50:39 - [MESSAGE][PASSED] - Text 'Rakendu,ABRA365' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address1'
+
+2018-10-31 13:50:43 - [MESSAGE][PASSED] - Text 'church road' is set on object 'Object Repository/user/create_new_admin/Page_Add Admin/input_address2'
+
+2018-10-31 13:50:50 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/user/create_new_admin/Page_Add Admin/select_status'
+
+2018-10-31 13:50:50 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAdminDetails is PASSED
+
+2018-10-31 13:50:50 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd: phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-31 13:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:06 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-31 13:51:06 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit: phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-31 13:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:27 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:27 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-31 13:51:27 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForRemove: phpTravels.PhpKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-31 13:51:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2018-10-31 13:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:51:53 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:52:09 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:52:09 - [MESSAGE][PASSED] - phpTravels.PhpKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-31 13:52:09 - [TEST_STEP][PASSED] - phpTravels.PhpKeys.saveAdmin: phpTravels.PhpKeys.saveAdmin is PASSED
+
+2018-10-31 13:52:19 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_admin/Page_Update Admin/button_Submit' is clicked on
+
+2018-10-31 13:52:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-31 13:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_admin/Page_Update Admin/table_Admin' is present
+
+2018-10-31 13:52:21 - [MESSAGE][PASSED] - phpTravels.PhpKeys.saveAdmin is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/LoginAsNewAdmin" classname="Test Cases/Common/LoginAsNewAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-31 13:52:21 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsNewAdmin: Test Cases/Common/LoginAsNewAdmin
+
+2018-10-31 13:52:21 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-31 13:52:21 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 1): null
+
+2018-10-31 13:52:21 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 1): null
+
+2018-10-31 13:52:21 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-31 13:52:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-31 13:52:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-31 13:52:30 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-31 13:52:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-31 13:52:37 - [MESSAGE][PASSED] - Text 'sj@demo.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-31 13:52:41 - [MESSAGE][PASSED] - Text 'Password1!' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-31 13:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-31 13:52:43 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateTour/CreateATour" classname="Test Cases/CreateTour/CreateATour" status="PASSED">
+         <system-out><![CDATA[2018-10-31 13:52:43 - [TEST_CASE][PASSED] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour
+
+2018-10-31 13:52:44 - [TEST_STEP][PASSED] - phpTravels.TourKeys.navigateToNewTour: phpTravels.TourKeys.navigateToNewTour is PASSED
+
+2018-10-31 13:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Tours' is clicked on
+
+2018-10-31 13:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Add New' is clicked on
+
+2018-10-31 13:53:01 - [MESSAGE][PASSED] - phpTravels.TourKeys.navigateToNewTour is PASSED
+
+2018-10-31 13:53:01 - [TEST_STEP][PASSED] - phpTravels.TourKeys.provideTourDetails: phpTravels.TourKeys.provideTourDetails is PASSED
+
+2018-10-31 13:53:13 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_TourStatus'  using regular expression
+
+2018-10-31 13:53:17 - [MESSAGE][PASSED] - Text 'Trip to Ootty' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tourname'
+
+2018-10-31 13:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/iframeBody' is clicked on
+
+2018-10-31 13:53:26 - [MESSAGE][PASSED] - Text 'Enjoy Holidays with Family' is set on object 'Object Repository/create_Tour/Page_Add Tour/iframeBody'
+
+2018-10-31 13:53:32 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxadult'
+
+2018-10-31 13:53:37 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_adultprice'
+
+2018-10-31 13:53:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2018-10-31 13:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/span_EnableChild' is clicked on
+
+2018-10-31 13:53:44 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxchild'
+
+2018-10-31 13:53:49 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_childprice'
+
+2018-10-31 13:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/span_EnableInfant' is clicked on
+
+2018-10-31 13:53:55 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxinfant'
+
+2018-10-31 13:53:59 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_infantprice'
+
+2018-10-31 13:54:22 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_Select'  using regular expression
+
+2018-10-31 13:54:26 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tourdays'
+
+2018-10-31 13:54:30 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tournights'
+
+2018-10-31 13:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/select_TourType' is clicked on
+
+2018-10-31 13:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/select_TourTypeOption' is clicked on
+
+2018-10-31 13:54:48 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_Featured'  using regular expression
+
+2018-10-31 13:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/autocomplete_Location1' is clicked on
+
+2018-10-31 13:54:55 - [MESSAGE][PASSED] - Text 'Beatric' is set on object 'Object Repository/create_Tour/Page_Add Tour/autocomplete_Location2'
+
+2018-10-31 13:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/autocomplete_Location3' is clicked on
+
+2018-10-31 13:54:58 - [MESSAGE][PASSED] - phpTravels.TourKeys.provideTourDetails is PASSED
+
+2018-10-31 13:54:58 - [TEST_STEP][PASSED] - phpTravels.TourKeys.provideTourInclusions: phpTravels.TourKeys.provideTourInclusions is PASSED
+
+2018-10-31 13:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/a_Inclusions' is clicked on
+
+2018-10-31 13:55:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-31 13:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-31 13:56:21 - [MESSAGE][PASSED] - phpTravels.TourKeys.provideTourInclusions is PASSED
+
+2018-10-31 13:56:21 - [TEST_STEP][PASSED] - phpTravels.TourKeys.provideTourExclusions: phpTravels.TourKeys.provideTourExclusions is PASSED
+
+2018-10-31 13:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/a_Exclusions' is clicked on
+
+2018-10-31 13:56:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-31 13:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-31 13:56:42 - [MESSAGE][PASSED] - phpTravels.TourKeys.provideTourExclusions is PASSED
+
+2018-10-31 13:56:42 - [TEST_STEP][PASSED] - phpTravels.TourKeys.SaveTour: phpTravels.TourKeys.SaveTour is PASSED
+
+2018-10-31 13:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button_Submit' is clicked on
+
+2018-10-31 13:56:50 - [MESSAGE][PASSED] - Object 'Object Repository/create_Tour/Page_Add Tour/table_Tour' is present
+
+2018-10-31 13:56:50 - [MESSAGE][PASSED] - phpTravels.TourKeys.SaveTour is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser/CreateNewSupplier" classname="Test Cases/CreateUser/CreateNewSupplier" status="PASSED">
+         <system-out><![CDATA[2018-10-31 13:56:50 - [TEST_CASE][PASSED] - Test Cases/CreateUser/CreateNewSupplier: Test Cases/CreateUser/CreateNewSupplier
+
+2018-10-31 13:56:50 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.navigateToCreateSupplierPage: phpTravels.SupplierKeys.navigateToCreateSupplierPage is PASSED
+
+2018-10-31 13:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-31 13:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Suppliers' is clicked on
+
+2018-10-31 13:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Suppliers Management/button_Add' is clicked on
+
+2018-10-31 13:57:00 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.navigateToCreateSupplierPage is PASSED
+
+2018-10-31 13:57:00 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.provideSupplierDetails: phpTravels.SupplierKeys.provideSupplierDetails is PASSED
+
+2018-10-31 13:57:06 - [MESSAGE][PASSED] - Text 'Sukanya' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_fname'
+
+2018-10-31 13:57:10 - [MESSAGE][PASSED] - Text 'J' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_lname'
+
+2018-10-31 13:57:14 - [MESSAGE][PASSED] - Text 'saranya@demo.com' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_email'
+
+2018-10-31 13:57:19 - [MESSAGE][PASSED] - Text 'password1!' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_password'
+
+2018-10-31 13:57:23 - [MESSAGE][PASSED] - Text '8301089504' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_mobile'
+
+2018-10-31 13:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_Country1' is clicked on
+
+2018-10-31 13:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_Country2' is clicked on
+
+2018-10-31 13:57:32 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_Country2'
+
+2018-10-31 13:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_Country3' is clicked on
+
+2018-10-31 13:57:38 - [MESSAGE][PASSED] - Text 'Rakendu,ABRA352' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_address1'
+
+2018-10-31 13:57:43 - [MESSAGE][PASSED] - Text 'Annooor, Church road' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_address2'
+
+2018-10-31 13:57:54 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'Object Repository/user/create_new_supplier/Page_Add Supplier/select_Status'  using regular expression
+
+2018-10-31 13:58:09 - [MESSAGE][PASSED] - All options with value 'Tours' are selected in object 'Object Repository/user/create_new_supplier/Page_Add Supplier/select_SupplyFor'  using regular expression
+
+2018-10-31 13:58:13 - [MESSAGE][PASSED] - Text 'Saranya' is set on object 'Object Repository/user/create_new_supplier/Page_Add Supplier/input_Name'
+
+2018-10-31 13:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_AssignHotel' is clicked on
+
+2018-10-31 13:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_AssignHotel2' is clicked on
+
+2018-10-31 13:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_AssignTour1' is clicked on
+
+2018-10-31 13:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_AssignTour2' is clicked on
+
+2018-10-31 13:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_Cars1' is clicked on
+
+2018-10-31 13:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Add Supplier/autocomplete_Cars2' is clicked on
+
+2018-10-31 13:58:26 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.provideSupplierDetails is PASSED
+
+2018-10-31 13:58:26 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.provideAccessDetailsForAdd: phpTravels.SupplierKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-31 13:58:29 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:36 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/add/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:42 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.provideAccessDetailsForAdd is PASSED
+
+2018-10-31 13:58:42 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.provideAccessDetailsForEdit: phpTravels.SupplierKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-31 13:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:48 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/edit/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:58:58 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.provideAccessDetailsForEdit is PASSED
+
+2018-10-31 13:58:58 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.provideAccessDetailsForRemove: phpTravels.SupplierKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-31 13:58:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2018-10-31 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:59:05 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:59:09 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:59:12 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:59:15 - [MESSAGE][PASSED] - Object 'Object Repository/common/Access/remove/Page_Add Admin/checkbox_all' is checked
+
+2018-10-31 13:59:15 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.provideAccessDetailsForRemove is PASSED
+
+2018-10-31 13:59:15 - [TEST_STEP][PASSED] - phpTravels.SupplierKeys.saveSupplier: phpTravels.SupplierKeys.saveSupplier is PASSED
+
+2018-10-31 13:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button_Submit' is clicked on
+
+2018-10-31 13:59:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-31 13:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/user/create_new_supplier/Page_Suppliers Management/table_Supplier' is present
+
+2018-10-31 13:59:23 - [MESSAGE][PASSED] - phpTravels.SupplierKeys.saveSupplier is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common/DeleteAllTestData" classname="Test Cases/Common/DeleteAllTestData" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-10-31 13:59:23 - [TEST_CASE][FAILED] - Test Cases/Common/DeleteAllTestData: Test Cases/Common/DeleteAllTestData FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-31 13:59:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/LoginAsSuperAdmin' successfully
+
+2018-10-31 13:59:23 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-31 13:59:23 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-31 13:59:23 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-31 13:59:23 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-31 13:59:23 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-31 13:59:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-31 13:59:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-31 13:59:33 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-31 13:59:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-31 13:59:40 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-31 13:59:44 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-31 13:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-31 13:59:46 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-31 13:59:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/LoginAsSuperAdmin' successfully
+
+2018-10-31 13:59:46 - [TEST_STEP][PASSED] - phpTravels.commonUtils.deleteSupplierData: phpTravels.commonUtils.deleteSupplierData is PASSED
+
+2018-10-31 13:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Accounts' is clicked on
+
+2018-10-31 13:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Dashboard/a_Suppliers' is clicked on
+
+2018-10-31 13:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create_new_supplier/Page_Suppliers Management/select_Supplier' is clicked on
+
+2018-10-31 14:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button_Delete' is clicked on
+
+2018-10-31 14:00:03 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-31 14:00:03 - [MESSAGE][PASSED] - phpTravels.commonUtils.deleteSupplierData is PASSED
+
+2018-10-31 14:00:03 - [TEST_STEP][FAILED] - phpTravels.commonUtils.deleteTourData: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-10-31 14:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Tours' is clicked on
+
+2018-10-31 14:00:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/create_Tour/Page_Add Tour/select_Supplier' does not exist
+
+2018-10-31 14:00:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-31 14:00:09 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Saranya\\git\\Katalon_Saranya_Assignment\\Reports\\scenario1\\20181031_134916\\1540974607737.png]]
+
+2018-10-31 14:00:09 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2018-10-31 13:59:23 - [TEST_CASE][FAILED] - Test Cases/Common/DeleteAllTestData: Test Cases/Common/DeleteAllTestData FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-31 13:49:19 - [TEST_SUITE][FAILED] - scenario1: Test Cases/Common/DeleteAllTestData FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-10-31 13:49:19 - [TEST_SUITE][FAILED] - scenario1: Test Cases/Common/DeleteAllTestData FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

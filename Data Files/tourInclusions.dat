@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>tourInclusions</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>abe09767-2911-4b06-9ea0-e3eda4f2c439</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Cab+Facilities 1</data>
+   <data>Local+tax 0</data>
+   <data>Playground+Nearby 0</data>
+   <data>Return+Ferry+Tickets 0</data>
+   <data>Bike+equipment 0</data>
+   <data>Complimentary+Breakfast 0</data>
+   <data>+Local+Guides%2FMaps 0</data>
+   <data>Collision+Coverage 1</data>
+   <data>Transportation 1</data>
+   <data>Restaurant+Nearby 0</data>
+   <data>Golf+Nearby 1</data>
+   <data>Deluxe+Coach 0</data>
+   <data>Central+Air%2FHeat 0</data>
+   <data>Parking 0</data>
+   <data>Guides+%2F+Assistance 0</data>
+   <data>Live+entertainment 0</data>
+   <data>Dinner 0</data>
+   <data>Cruise 1</data>
+   <data>Room+service+and+meals 0</data>
+   <data>Professional+tour+escort 0</data>
+   <data>Beach+Access 0</data>
+   <data>Roundtrip+Hotel+Transfers 0</data>
+   <data>Suitable+for+Children 0</data>
+   <data>Historic+Area+Nearby 0</data>
+   <data>Snowcat+ride 0</data>
+   <data>Admission+to+park%28s%29 0</data>
+   <data>Driver 0</data>
+   <data>Diving+Nearby 0</data>
+   <data>Service+fee+for+tour+guide 0</data>
+   <data>Air+Conditioning 0</data>
+   <data>Internet+Access 0</data>
+   <data>Hotel+pickup+and+drop+off 0</data>
+   <data>Amusement+Park+Nearby 0</data>
+   <data>Gratuities+%28optional%29 0</data>
+   <data>Safety+deposit+boxes 0</data>
+   <data>Lunch 0</data>
+   <data>wheelchair 0</data>
+   <data>Jetski+Tours+Nearby 0</data>
+   <data>Shopping 0</data>
+   <data>Deck+Furniture 0</data>
+   <data>Security+System 0</data>
+   <data>State%2FNational+Park+Nearby 0</data>
+   <data>null null</data>
+   <data>null null</data>
+   <data>null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>inclusionArea</name>
+      <size>45</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>select_Trigger</name>
+      <size>45</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

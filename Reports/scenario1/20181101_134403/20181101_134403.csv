@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+scenario1,Chrome 70.0.3538.77,,2018-11-01 13:44:07,2018-11-01 13:54:34,10m - 27.335s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,Chrome 70.0.3538.77,,2018-11-01 13:44:08,2018-11-01 13:44:33,24.935s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Chrome 70.0.3538.77,,2018-11-01 13:44:09,2018-11-01 13:44:10,1.015s,PASSED
+"Statement - userName = dbdata.getValue(5, 2)",Chrome 70.0.3538.77,,2018-11-01 13:44:10,2018-11-01 13:44:10,0.016s,PASSED
+"Statement - password = dbdata.getValue(2, 2)",Chrome 70.0.3538.77,,2018-11-01 13:44:10,2018-11-01 13:44:10,0.001s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Chrome 70.0.3538.77,,2018-11-01 13:44:10,2018-11-01 13:44:33,23.131s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewAdmin,Chrome 70.0.3538.77,,2018-11-01 13:44:33,2018-11-01 13:46:33,2m - 0.010s,ERROR
+phpTravels.PhpKeys.navigateToCreateAdminPage,Chrome 70.0.3538.77,,2018-11-01 13:44:33,2018-11-01 13:44:48,15.327s,PASSED
+phpTravels.PhpKeys.provideAdminDetails,Chrome 70.0.3538.77,,2018-11-01 13:44:48,2018-11-01 13:45:37,48.546s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForAdd,Chrome 70.0.3538.77,,2018-11-01 13:45:37,2018-11-01 13:45:53,16.156s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForEdit,Chrome 70.0.3538.77,,2018-11-01 13:45:53,2018-11-01 13:46:09,15.972s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForRemove,Chrome 70.0.3538.77,,2018-11-01 13:46:09,2018-11-01 13:46:26,17.004s,PASSED
+phpTravels.PhpKeys.saveAdmin,Chrome 70.0.3538.77,,2018-11-01 13:46:26,2018-11-01 13:46:33,6.583s,PASSED
+phpTravels.commonUtils.logoutPHPTravels,Chrome 70.0.3538.77,,2018-11-01 13:46:33,2018-11-01 13:46:33,0.031s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsNewAdmin,Chrome 70.0.3538.77,,2018-11-01 13:46:33,2018-11-01 13:46:55,22.743s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Chrome 70.0.3538.77,,2018-11-01 13:46:33,2018-11-01 13:46:33,0.054s,PASSED
+"Statement - userName = dbdata.getValue(5, 1)",Chrome 70.0.3538.77,,2018-11-01 13:46:33,2018-11-01 13:46:33,0.001s,PASSED
+"Statement - password = dbdata.getValue(2, 1)",Chrome 70.0.3538.77,,2018-11-01 13:46:33,2018-11-01 13:46:33,0.003s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Chrome 70.0.3538.77,,2018-11-01 13:46:33,2018-11-01 13:46:55,22.446s,PASSED
+,,,,,,
+Test Cases/CreateTour/CreateATour,Chrome 70.0.3538.77,,2018-11-01 13:46:55,2018-11-01 13:50:55,3m - 59.542s,PASSED
+phpTravels.TourKeys.navigateToNewTour,Chrome 70.0.3538.77,,2018-11-01 13:46:56,2018-11-01 13:47:09,12.999s,PASSED
+phpTravels.TourKeys.provideTourDetails,Chrome 70.0.3538.77,,2018-11-01 13:47:09,2018-11-01 13:49:04,1m - 55.190s,PASSED
+phpTravels.TourKeys.provideTourInclusions,Chrome 70.0.3538.77,,2018-11-01 13:49:04,2018-11-01 13:50:27,1m - 22.752s,PASSED
+phpTravels.TourKeys.provideTourExclusions,Chrome 70.0.3538.77,,2018-11-01 13:50:27,2018-11-01 13:50:47,20.362s,PASSED
+phpTravels.TourKeys.SaveTour,Chrome 70.0.3538.77,,2018-11-01 13:50:47,2018-11-01 13:50:55,7.908s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewSupplier,Chrome 70.0.3538.77,,2018-11-01 13:50:55,2018-11-01 13:53:27,2m - 31.765s,ERROR
+phpTravels.SupplierKeys.navigateToCreateSupplierPage,Chrome 70.0.3538.77,,2018-11-01 13:50:56,2018-11-01 13:51:06,10.583s,PASSED
+phpTravels.SupplierKeys.provideSupplierDetails,Chrome 70.0.3538.77,,2018-11-01 13:51:06,2018-11-01 13:52:31,1m - 25.192s,PASSED
+phpTravels.SupplierKeys.provideAccessDetailsForAdd,Chrome 70.0.3538.77,,2018-11-01 13:52:31,2018-11-01 13:52:47,15.990s,PASSED
+phpTravels.SupplierKeys.provideAccessDetailsForEdit,Chrome 70.0.3538.77,,2018-11-01 13:52:47,2018-11-01 13:53:03,15.928s,PASSED
+phpTravels.SupplierKeys.provideAccessDetailsForRemove,Chrome 70.0.3538.77,,2018-11-01 13:53:03,2018-11-01 13:53:20,16.929s,PASSED
+phpTravels.SupplierKeys.saveSupplier,Chrome 70.0.3538.77,,2018-11-01 13:53:20,2018-11-01 13:53:27,6.621s,PASSED
+phpTravels.commonUtils.logoutPHPTravels,Chrome 70.0.3538.77,,2018-11-01 13:53:27,2018-11-01 13:53:27,0.007s,ERROR
+,,,,,,
+Test Cases/Common/DeleteAllTestData,Chrome 70.0.3538.77,,2018-11-01 13:53:27,2018-11-01 13:54:32,1m - 5.625s,PASSED
+callTestCase,Chrome 70.0.3538.77,,2018-11-01 13:53:27,2018-11-01 13:53:50,22.816s,PASSED
+phpTravels.commonUtils.deleteSupplierData,Chrome 70.0.3538.77,,2018-11-01 13:53:50,2018-11-01 13:54:08,17.576s,PASSED
+phpTravels.commonUtils.deleteTourData,Chrome 70.0.3538.77,,2018-11-01 13:54:08,2018-11-01 13:54:19,11.522s,PASSED
+phpTravels.commonUtils.deleteAdminData,Chrome 70.0.3538.77,,2018-11-01 13:54:19,2018-11-01 13:54:32,13.411s,PASSED

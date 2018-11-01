@@ -1,1 +1,1 @@
-# Katalon_Saranya
+# Katalon_Saranya_Assignment2

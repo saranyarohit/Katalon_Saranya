@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createTour" time="272" tests="2" failures="0" errors="0">
+   <testsuite name="createTour" tests="2" failures="0" errors="0" time="272" timestamp="2018-10-30 12:03:45" hostname="Saranya - Saranya-PC" id="Test Suites/createTour">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\createTour\\20181030_120341"/>
+         <property name="logFiles" value="C:\\Users\\Saranya\\Katalon Studio\\Saranya_Katalon_Assignment2\\Reports\\createTour\\20181030_120341\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Saranya - Saranya-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="dbServerInfo" value="MySQL 5.6.20"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.142"/>
+         <property name="sessionId" value="a862fcd3d400243afdf3ea688ed4452d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Common/LoginAsSuperAdmin" classname="Test Cases/Common/LoginAsSuperAdmin" status="PASSED">
+         <system-out><![CDATA[2018-10-30 12:03:46 - [TEST_CASE][PASSED] - Test Cases/Common/LoginAsSuperAdmin: Test Cases/Common/LoginAsSuperAdmin
+
+2018-10-30 12:03:47 - [TEST_STEP][PASSED] - Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails): Reading database data with query 'SELECT * FROM katalon_saranya_16_oct_18.users'
+
+2018-10-30 12:03:48 - [TEST_STEP][PASSED] - Statement - userName = dbdata.getValue(5, 2): null
+
+2018-10-30 12:03:48 - [TEST_STEP][PASSED] - Statement - password = dbdata.getValue(2, 2): null
+
+2018-10-30 12:03:48 - [TEST_STEP][PASSED] - phpTravels.commonUtils.loginToPHPTravels: phpTravels.commonUtils.loginToPHPTravels is PASSED
+
+2018-10-30 12:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-30 12:04:00 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/admin' successfully
+
+2018-10-30 12:04:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-30 12:04:07 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_email'
+
+2018-10-30 12:04:11 - [MESSAGE][PASSED] - Text 'demoadmin' is set on object 'Object Repository/common/super_admin/Page_Administator Login/input_password'
+
+2018-10-30 12:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/common/super_admin/Page_Administator Login/button_Login' is clicked on
+
+2018-10-30 12:04:13 - [MESSAGE][PASSED] - phpTravels.commonUtils.loginToPHPTravels is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateTour/CreateATour" classname="Test Cases/CreateTour/CreateATour" status="PASSED">
+         <system-out><![CDATA[2018-10-30 12:04:13 - [TEST_CASE][PASSED] - Test Cases/CreateTour/CreateATour: Test Cases/CreateTour/CreateATour
+
+2018-10-30 12:04:14 - [TEST_STEP][PASSED] - phpTravels.TourKeys.navigateToNewTour: phpTravels.TourKeys.navigateToNewTour is PASSED
+
+2018-10-30 12:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Tours' is clicked on
+
+2018-10-30 12:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Tours Management/a_Add New' is clicked on
+
+2018-10-30 12:04:30 - [MESSAGE][PASSED] - phpTravels.TourKeys.navigateToNewTour is PASSED
+
+2018-10-30 12:04:30 - [TEST_STEP][PASSED] - phpTravels.TourKeys.provideTourDetails: phpTravels.TourKeys.provideTourDetails is PASSED
+
+2018-10-30 12:04:42 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_TourStatus'  using regular expression
+
+2018-10-30 12:04:46 - [MESSAGE][PASSED] - Text 'Trip to Ootty' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tourname'
+
+2018-10-30 12:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/iframeBody' is clicked on
+
+2018-10-30 12:04:55 - [MESSAGE][PASSED] - Text 'Enjoy Holidays with Family' is set on object 'Object Repository/create_Tour/Page_Add Tour/iframeBody'
+
+2018-10-30 12:05:02 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxadult'
+
+2018-10-30 12:05:06 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_adultprice'
+
+2018-10-30 12:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/span_Enable' is clicked on
+
+2018-10-30 12:05:12 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxchild'
+
+2018-10-30 12:05:17 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_childprice'
+
+2018-10-30 12:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/span_Enable_1' is clicked on
+
+2018-10-30 12:05:23 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_maxinfant'
+
+2018-10-30 12:05:27 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_infantprice'
+
+2018-10-30 12:05:50 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_Select'  using regular expression
+
+2018-10-30 12:05:54 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tourdays'
+
+2018-10-30 12:05:59 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/create_Tour/Page_Add Tour/input_tournights'
+
+2018-10-30 12:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/select_TourType' is clicked on
+
+2018-10-30 12:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/select_TourTypeOption' is clicked on
+
+2018-10-30 12:06:16 - [MESSAGE][PASSED] - All options with value 'yes' are selected in object 'Object Repository/create_Tour/Page_Add Tour/select_Featured'  using regular expression
+
+2018-10-30 12:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/autocomplete_Location1' is clicked on
+
+2018-10-30 12:06:23 - [MESSAGE][PASSED] - Text 'Beatric' is set on object 'Object Repository/create_Tour/Page_Add Tour/autocomplete_Location2'
+
+2018-10-30 12:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/autocomplete_Location3' is clicked on
+
+2018-10-30 12:06:25 - [MESSAGE][PASSED] - phpTravels.TourKeys.provideTourDetails is PASSED
+
+2018-10-30 12:06:25 - [TEST_STEP][PASSED] - phpTravels.TourKeys.provideTourInclusions: phpTravels.TourKeys.provideTourInclusions is PASSED
+
+2018-10-30 12:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/a_Inclusions' is clicked on
+
+2018-10-30 12:06:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-30 12:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Inclusions' is clicked on
+
+2018-10-30 12:07:48 - [MESSAGE][PASSED] - phpTravels.TourKeys.provideTourInclusions is PASSED
+
+2018-10-30 12:07:48 - [TEST_STEP][PASSED] - phpTravels.TourKeys.provideTourExclusions: phpTravels.TourKeys.provideTourExclusions is PASSED
+
+2018-10-30 12:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/a_Exclusions' is clicked on
+
+2018-10-30 12:07:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-30 12:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:08:00 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create_Tour/Page_Add Tour/checkbox_Exclusions' is clicked on
+
+2018-10-30 12:08:09 - [MESSAGE][PASSED] - phpTravels.TourKeys.provideTourExclusions is PASSED
+
+2018-10-30 12:08:09 - [TEST_STEP][PASSED] - phpTravels.TourKeys.SaveTour: phpTravels.TourKeys.SaveTour is PASSED
+
+2018-10-30 12:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button_Submit' is clicked on
+
+2018-10-30 12:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/create_Tour/Page_Add Tour/table_Tour' is present
+
+2018-10-30 12:08:16 - [MESSAGE][PASSED] - phpTravels.TourKeys.SaveTour is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-30 12:03:45 - [TEST_SUITE][PASSED] - createTour: Test Cases/CreateTour/CreateATour]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

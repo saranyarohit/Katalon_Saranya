@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateNewAdminAndLogin,Chrome 69.0.3497.100,,2018-10-23 11:36:09,2018-10-23 11:36:29,19.658s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,Chrome 69.0.3497.100,,2018-10-23 11:36:10,2018-10-23 11:36:19,8.771s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-23 11:36:11,2018-10-23 11:36:15,4.529s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-23 11:36:15,2018-10-23 11:36:18,2.413s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-23 11:36:18,2018-10-23 11:36:18,0.526s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-23 11:36:18,2018-10-23 11:36:19,0.346s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-23 11:36:19,2018-10-23 11:36:19,0.263s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewAdmin,Chrome 69.0.3497.100,,2018-10-23 11:36:19,2018-10-23 11:36:28,9.420s,ERROR
+phpTravels.PhpKeys.navigateToCreateAdminPage,Chrome 69.0.3497.100,,2018-10-23 11:36:19,2018-10-23 11:36:27,8.041s,PASSED
+phpTravels.PhpKeys.provideAdminDetails,Chrome 69.0.3497.100,,2018-10-23 11:36:27,2018-10-23 11:36:28,0.881s,ERROR

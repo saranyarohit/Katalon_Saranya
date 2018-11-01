@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateNewAdminAndLogin,Chrome 69.0.3497.100,,2018-10-26 16:11:39,2018-10-26 16:14:45,3m - 6.133s,FAILED
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,Chrome 69.0.3497.100,,2018-10-26 16:11:39,2018-10-26 16:12:01,21.342s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Chrome 69.0.3497.100,,2018-10-26 16:11:40,2018-10-26 16:11:41,0.861s,PASSED
+"Statement - userName = dbdata.getValue(5, 2)",Chrome 69.0.3497.100,,2018-10-26 16:11:41,2018-10-26 16:11:41,0.020s,PASSED
+"Statement - password = dbdata.getValue(2, 2)",Chrome 69.0.3497.100,,2018-10-26 16:11:41,2018-10-26 16:11:41,0.007s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Chrome 69.0.3497.100,,2018-10-26 16:11:41,2018-10-26 16:12:01,19.904s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewAdmin,Chrome 69.0.3497.100,,2018-10-26 16:12:01,2018-10-26 16:13:49,1m - 48.476s,FAILED
+phpTravels.PhpKeys.navigateToCreateAdminPage,Chrome 69.0.3497.100,,2018-10-26 16:12:01,2018-10-26 16:12:15,13.449s,PASSED
+phpTravels.PhpKeys.provideAdminDetails,Chrome 69.0.3497.100,,2018-10-26 16:12:15,2018-10-26 16:13:03,48.554s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForAdd,Chrome 69.0.3497.100,,2018-10-26 16:13:03,2018-10-26 16:13:19,16.003s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForEdit,Chrome 69.0.3497.100,,2018-10-26 16:13:19,2018-10-26 16:13:35,16.016s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForRemove,Chrome 69.0.3497.100,,2018-10-26 16:13:35,2018-10-26 16:13:49,14.120s,FAILED
+,,,,,,
+Test Cases/Common/LoginAsNewAdmin,Chrome 69.0.3497.100,,2018-10-26 16:13:49,2018-10-26 16:14:11,21.731s,PASSED
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),Chrome 69.0.3497.100,,2018-10-26 16:13:50,2018-10-26 16:13:50,0.064s,PASSED
+"Statement - userName = dbdata.getValue(5, 1)",Chrome 69.0.3497.100,,2018-10-26 16:13:50,2018-10-26 16:13:50,0.002s,PASSED
+"Statement - password = dbdata.getValue(2, 1)",Chrome 69.0.3497.100,,2018-10-26 16:13:50,2018-10-26 16:13:50,0.003s,PASSED
+phpTravels.commonUtils.loginToPHPTravels,Chrome 69.0.3497.100,,2018-10-26 16:13:50,2018-10-26 16:14:11,21.359s,PASSED
+,,,,,,
+Test Cases/CreateTour/CreateATour,Chrome 69.0.3497.100,,2018-10-26 16:14:11,2018-10-26 16:14:43,32.105s,FAILED
+phpTravels.TourKeys.navigateToNewTour,Chrome 69.0.3497.100,,2018-10-26 16:14:11,2018-10-26 16:14:43,31.845s,FAILED

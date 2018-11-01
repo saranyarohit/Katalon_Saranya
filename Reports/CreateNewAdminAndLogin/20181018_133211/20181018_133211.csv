@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreateNewAdminAndLogin,Firefox 47.0,,2018-10-18 13:32:13,2018-10-18 13:32:47,33.574s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,Firefox 47.0,,2018-10-18 13:32:14,2018-10-18 13:32:31,17.213s,PASSED
+openBrowser,Firefox 47.0,,2018-10-18 13:32:15,2018-10-18 13:32:28,12.743s,PASSED
+navigateToUrl,Firefox 47.0,,2018-10-18 13:32:28,2018-10-18 13:32:30,2.253s,PASSED
+setText,Firefox 47.0,,2018-10-18 13:32:30,2018-10-18 13:32:30,0.504s,PASSED
+setText,Firefox 47.0,,2018-10-18 13:32:30,2018-10-18 13:32:31,0.710s,PASSED
+click,Firefox 47.0,,2018-10-18 13:32:31,2018-10-18 13:32:31,0.254s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewAdmin,Firefox 47.0,,2018-10-18 13:32:31,2018-10-18 13:32:47,15.262s,ERROR
+phpTravels.PhpKeys.navigateToCreateAdminPage,Firefox 47.0,,2018-10-18 13:32:32,2018-10-18 13:32:39,7.120s,PASSED
+phpTravels.PhpKeys.provideAdminDetails,Firefox 47.0,,2018-10-18 13:32:39,2018-10-18 13:32:47,7.467s,PASSED
+phpTravels.PhpKeys.provideAccessDetailsForAdd,Firefox 47.0,,2018-10-18 13:32:47,2018-10-18 13:32:47,0.059s,ERROR

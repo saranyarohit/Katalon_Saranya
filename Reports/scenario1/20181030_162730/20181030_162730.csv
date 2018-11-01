@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+scenario1,,,2018-10-30 16:27:34,2018-10-30 16:28:20,46.630s,ERROR
+,,,,,,
+Test Cases/Common/LoginAsSuperAdmin,,,2018-10-30 16:27:35,2018-10-30 16:27:57,22.120s,ERROR
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),,,2018-10-30 16:27:35,2018-10-30 16:27:57,21.588s,PASSED
+,,,,,,
+Test Cases/CreateUser/CreateNewAdmin,,,2018-10-30 16:27:57,2018-10-30 16:27:58,1.153s,FAILED
+phpTravels.PhpKeys.navigateToCreateAdminPage,,,2018-10-30 16:27:57,2018-10-30 16:27:58,0.728s,FAILED
+,,,,,,
+Test Cases/Common/LoginAsNewAdmin,,,2018-10-30 16:27:58,2018-10-30 16:28:19,21.402s,ERROR
+Statement - dbdata = com.kms.katalon.core.testdata.TestDataFactory.findTestData(adminDetails),,,2018-10-30 16:27:58,2018-10-30 16:28:19,21.041s,PASSED
+,,,,,,
+Test Cases/CreateTour/CreateATour,,,2018-10-30 16:28:19,2018-10-30 16:28:20,0.355s,FAILED
+phpTravels.TourKeys.navigateToNewTour,,,2018-10-30 16:28:20,2018-10-30 16:28:20,0.038s,FAILED
+,,,,,,
+Test Cases/CreateUser/CreateNewSupplier,,,2018-10-30 16:28:20,2018-10-30 16:28:20,0.268s,FAILED
+phpTravels.SupplierKeys.navigateToCreateSupplierPage,,,2018-10-30 16:28:20,2018-10-30 16:28:20,0.019s,FAILED
+,,,,,,
+Test Cases/Common/DeleteAllTestData,,,2018-10-30 16:28:20,2018-10-30 16:28:20,0.296s,FAILED
+phpTravels.commonUtils.deleteSupplierData,,,2018-10-30 16:28:20,2018-10-30 16:28:20,0.017s,FAILED
