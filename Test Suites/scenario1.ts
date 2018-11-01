@@ -4,7 +4,7 @@
    <name>scenario1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-01T14:03:11</lastRun>
+   <lastRun>2018-11-01T16:34:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

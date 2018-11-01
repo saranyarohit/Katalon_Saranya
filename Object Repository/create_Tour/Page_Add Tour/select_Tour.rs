@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>.//tbody//*[contains(text(),'sj@demo.com')]//parent::*//preceding-sibling::*//child::*</value>
+         <value>.//tbody//*[contains(text(),'Trip to Ootty')]//parent::*//preceding-sibling::*//child::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

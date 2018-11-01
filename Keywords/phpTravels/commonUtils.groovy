@@ -107,6 +107,7 @@ class commonUtils {
 	@Keyword
 	def deleteTourData() {
 		WebUI.click(findTestObject('create_Tour/Page_Tours Management/a_Tours'))
+		WebUI.waitForElementPresent(findTestObject('create_Tour/Page_Tours Management/a_TourSubTab'), 30)
 		WebUI.click(findTestObject('create_Tour/Page_Tours Management/a_TourSubTab'))
 		if (WebUI.verifyElementPresent(findTestObject('create_Tour/Page_Add Tour/select_Supplier'),5,FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject('create_Tour/Page_Add Tour/select_Supplier'))
@@ -126,9 +127,9 @@ class commonUtils {
 			println("Admin created has been deleted Successfully")
 		}
 	}
-	
+
 	@Keyword
 	def logoutPHPTravels() {
-		  WebUI.click(findTestObject('Object Repository/common/button_Logout'))
+		WebUI.click(findTestObject('Object Repository/common/button_Logout'))
 	}
 }

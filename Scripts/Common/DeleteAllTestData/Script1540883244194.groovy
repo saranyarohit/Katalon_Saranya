@@ -23,7 +23,5 @@ WebUI.callTestCase(findTestCase('Common/LoginAsSuperAdmin'), [:], FailureHandlin
 
 CustomKeywords.'phpTravels.commonUtils.deleteSupplierData'()
 
-CustomKeywords.'phpTravels.commonUtils.deleteTourData'()
-
 CustomKeywords.'phpTravels.commonUtils.deleteAdminData'()
 
