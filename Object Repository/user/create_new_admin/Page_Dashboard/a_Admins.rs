@@ -4,7 +4,17 @@
    <name>a_Admins</name>
    <tag></tag>
    <elementGuidId>42564f79-093a-45bb-a7ac-3906c7da8f27</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://www.phptravels.net/admin/accounts/admins/' and (text() = 'Admins' or . = 'Admins')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>.//*[@id='ACCOUNTS']/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

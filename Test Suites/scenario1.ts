@@ -4,7 +4,7 @@
    <name>scenario1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-01T16:34:58</lastRun>
+   <lastRun>2018-11-02T14:56:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -42,9 +42,15 @@
       <testCaseId>Test Cases/CreateUser/CreateNewSupplier</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>48d6e38c-20b3-46c3-9d43-40ac9b8550e8</guid>
+      <guid>15eae86b-e3df-463a-bdca-b162507a76b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common/DeleteAllTestData</testCaseId>
+      <testCaseId>Test Cases/Common/DeleteAdminData</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>607f1b6d-db7f-41ad-835c-3540ad74eb67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/DeleteSupplierData</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/LoginAsSuperAdmin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'phpTravels.commonUtils.deleteSupplierData'()
-
 CustomKeywords.'phpTravels.commonUtils.deleteAdminData'()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DeleteAllTestData</name>
+   <name>DeleteSupplierData</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>727e993d-ec53-41d3-8918-1820ad0b0560</testCaseGuid>

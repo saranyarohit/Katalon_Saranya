@@ -101,6 +101,7 @@ class commonUtils {
 			WebUI.click(findTestObject('user/create_new_supplier/Page_Suppliers Management/select_Supplier'))
 			WebUI.click(findTestObject('common/button_Delete'))
 			WebUI.acceptAlert()
+			WebUI.waitForPageLoad(30, FailureHandling.STOP_ON_FAILURE)
 			println("Supplier created has been deleted Successfully")
 		}
 	}
@@ -113,15 +114,18 @@ class commonUtils {
 			WebUI.click(findTestObject('create_Tour/Page_Add Tour/select_Supplier'))
 			WebUI.click(findTestObject('common/button_Delete'))
 			WebUI.acceptAlert()
+			WebUI.waitForPageLoad(30, FailureHandling.STOP_ON_FAILURE)
 			println("Tour created has been deleted Successfully")
 		}
 	}
 	@Keyword
 	def deleteAdminData() {
 		WebUI.click(findTestObject('user/create_new_admin/Page_Dashboard/a_Accounts'))
+		WebUI.delay(10)
 		WebUI.click(findTestObject('user/create_new_admin/Page_Dashboard/a_Admins'))
-		if (WebUI.verifyElementPresent(findTestObject('user/create_new_admin/Page_Update Admin/select_Admin'),5,FailureHandling.OPTIONAL)) {
+		if (WebUI.verifyElementPresent(findTestObject('user/create_new_admin/Page_Update Admin/select_Admin'),6,FailureHandling.OPTIONAL)) {
 			WebUI.click(findTestObject('user/create_new_admin/Page_Update Admin/select_Admin'))
+			WebUI.delay(5)
 			WebUI.click(findTestObject('common/button_Delete'))
 			WebUI.acceptAlert()
 			println("Admin created has been deleted Successfully")
